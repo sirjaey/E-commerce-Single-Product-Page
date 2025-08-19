@@ -96,7 +96,7 @@ The application mimics a single-product store, allowing users to preview product
 - Components
 
   - Attribution.tsx
-  - Cart.tsx - Displays the completed state
+  - Cart.tsx
   - DescriptionSection.tsx
   - ErrorBoundry
   - Lightbox.tsx
