@@ -31,7 +31,6 @@
 			padding: 0 10%;
 			img {
 				height: 20px;
-				/* width: 100px; */
 			}
 		}
 		.cart-icon {
@@ -80,7 +79,7 @@
 		display: block;
 		padding: 0;
 	}
-	hr,
+	
 	.image-thumbnail,
 	.desk-price,
 	.desk-btns,
@@ -119,7 +118,6 @@
 		margin: auto auto;
 		padding: 5% 0;
 		width: 90%;
-		/* padding-right: 20px; */
 		.descrip-price {
 			font-size: 2.5rem;
 		}
@@ -238,7 +236,6 @@
 		display: flex;
 		justify-content: space-between;
 		padding: 16px ;
-		/* padding-bottom: 46px; */
 	}
 	.cart-item-icon {
 	border-radius: 5px;
@@ -322,16 +319,6 @@
 	.thumbnails {
 		gap: 25px;
 	}
-	/* .close {
-		top: 20px;
-		right: 28.3%;
-	}
-	.prev {
-		left: 25%;
-	}
-	.next {
-		right: 25%;
-	} */
 }
 
 

@@ -72,6 +72,7 @@ function Nav({
 						<div key={index} className="link-hover">
 							<a
 								href="#"
+								className="nav-link"
 								onMouseEnter={() => setHoverIndex(index)}
 								onMouseLeave={() => setHoverIndex(null)}>
 								{text}

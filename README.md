@@ -31,16 +31,13 @@ The application mimics a single-product store, allowing users to preview product
 
 ## 💡 Expected Behaviour
 
-```html
-<ul>
-  <li>Users should be able to <strong>view the optimal layout</strong> for the site depending on their device's screen size (mobile ↔ desktop).</li>
-  <li>Users should be able to <strong>see hover states</strong> for all interactive elements on the page (buttons, thumbnails, cart icon, etc.).</li>
-  <li>Users should be able to <strong>open a lightbox gallery</strong> by clicking on the large product image.</li>
-  <li>Users should be able to <strong>switch the large product image</strong> by clicking on the small thumbnail images.</li>
-  <li>Users should be able to <strong>add items to the cart</strong> by clicking the “Add to cart” button.</li>
-  <li>Users should be able to <strong>view the cart</strong> by clicking on the cart icon and <strong>remove items</strong> from it.</li>
-</ul>
-```
+- [ ] **Users should be able to view the optimal layout** for the site depending on their device's screen size (mobile ↔ desktop).
+- [ ] **Users should be able to see hover states** for all interactive elements on the page (buttons, thumbnails, cart icon, etc.).
+- [ ] **Users should be able to open a lightbox gallery** by clicking on the large product image.
+- [ ] **Users should be able to switch the large product image** by clicking on the small thumbnail images.
+- [ ] **Users should be able to add items to the cart** by clicking the “Add to cart” button.
+- [ ] **Users should be able to view the cart** by clicking on the cart icon and **remove items** from it.
+
 ---
 
 ## 🛠️ Technologies Used
@@ -54,7 +51,7 @@ The application mimics a single-product store, allowing users to preview product
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/sirjaey/interactive-card-details
+   git clone https://e-commerce-single-product-page.vercel.app
    cd interactive-card-details
    ```
 2. **Install dependencies**
@@ -115,10 +112,9 @@ The application mimics a single-product store, allowing users to preview product
 
 ## Screenshots of key features
 
-![Home page screenshot](./public/images/screenshot.png)
-![Error State screenshot](./public/images/errorstate.png)
-![Filled State screenshot](./public/images/filled.png)
-![Completed State screenshot](./public/images/completed.png)
+![Landing page screenshot](./src/assets/images/landingPageScreenshot.png)
+![Add to Cart](./src/assets/images/addToCartScreenshot.png)
+![Lightbox](./src/assets/images/lightboxScreenshot.png)
 
 ---
 
@@ -134,4 +130,4 @@ Frontend Developer | AltSchool | React + TypeScript Enthusiast
 
 ## 🔗 Links
 
-- Live Site URL: https://joshua-abu-interactive-card-details.netlify.app/
+- Live Site URL: https://joshua-abu-e-commerce-single-product-page.vercel.app/

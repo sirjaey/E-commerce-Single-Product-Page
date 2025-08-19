@@ -41,7 +41,6 @@ function Cart({
 								style={{
 									display: "flex",
 									alignItems: "center",
-									// gap: "10px",
 									flexDirection: "row",
 								}}>
 								<div className="cart-item-icon">
@@ -50,8 +49,7 @@ function Cart({
 										src={`${!isMobile && cartProductThumbnail}`}
 										alt="Cart item"
 										width={50}
-									/>
-								</div>
+									/>								</div>
 								<div className="descrip-price">
 									<p>{cartItem.name}</p>
 									<p>

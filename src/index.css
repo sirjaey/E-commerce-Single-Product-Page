@@ -218,6 +218,7 @@ main {
 			padding: 0.9rem 2.9rem;
 			text-align: center;
 			&:hover {
+				background-color: hsl(26, 85%, 64%);
 				cursor: pointer;
 			}
 			img {
@@ -244,12 +245,20 @@ main {
 				font-weight: 700;
 				position: absolute;
 				right: 10%;
+				&:hover {
+				color: hsl(26, 85%, 64%);
+				cursor: pointer;
+			}
 			}
 			.decrease {
 				color: hsl(26, 100%, 55%);
 				font-weight: 700;
 				position: absolute;
 				left: 10%;
+				&:hover {
+				color: hsl(26, 85%, 64%);
+				cursor: pointer;
+			}
 			}
 		}
 	}
@@ -367,6 +376,10 @@ main {
 		padding: 0.9rem 2.9rem;
 		text-align: center;
 		width: 100%;
+		&:hover {
+			background-color: hsl(26, 85%, 64%);
+			cursor: pointer;
+		}
 	}
 }
 .cart-header {

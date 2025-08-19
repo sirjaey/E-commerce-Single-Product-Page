@@ -2,16 +2,18 @@ import { useState, useEffect } from "react";
 import cartIcon from "../assets/svgs/icon-cart.svg";
 
 function DescriptionSection({
-	onAddToCart,
+	onAddToCart, count, setCount
 }: {
-	onAddToCart: (name: string, price: number, quantity: number) => void;
+        onAddToCart: (name: string, price: number, quantity: number) => void;
+        count: number;
+        setCount: React.Dispatch<React.SetStateAction<number>>;
 }) {
-	const [count, setCount] = useState<number>(0);
-	const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+	
+	const [isMobile, setIsMobile] = useState(window.innerWidth < 800);
 
 	useEffect(() => {
 		const handleResize = () => {
-			setIsMobile(window.innerWidth < 768);
+			setIsMobile(window.innerWidth < 800);
 		};
 		window.addEventListener("resize", handleResize);
 		return () => window.removeEventListener("resize", handleResize);

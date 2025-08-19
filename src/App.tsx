@@ -15,6 +15,7 @@ export default function Apj() {
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [lightboxOpen, setLightboxOpen] = useState(false);
 	const [cartVisible, setCartVisible] = useState(false);
+	const [count, setCount] = useState<number>(0);
 
 	// 🆕 Cart state
 	const [cartItem, setCartItem] = useState<{
@@ -41,6 +42,7 @@ export default function Apj() {
 
 	const handleRemoveFromCart = () => {
 		setCartItem(null);
+		setCount(0);
 	};
 
 	return (
@@ -60,7 +62,7 @@ export default function Apj() {
 					images={images}
 				/>
 
-				<DescriptionSection onAddToCart={handleAddToCart} />
+				<DescriptionSection onAddToCart={handleAddToCart} count={count} setCount={setCount} />
 
 				{lightboxOpen && (
 					<Lightbox
